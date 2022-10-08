@@ -1,0 +1,36 @@
+
+:root {font-size: 16px;}
+
+
+.logo { 
+               
+ width: 12vw;
+ margin: 0.1rem;
+ 
+ 
+                 
+  }
+                                
+
+
+  .subtitulo {
+
+    font-family: 'Dancing Script', cursive;
+    color: white;    
+    font-size: 1.5rem;
+    
+       
+    
+}
+
+ 
+
+.sticky{
+  background: rgba(0, 0, 0, 0.89);
+  top: 0rem;    
+}
+
+
+.sticky > ul > li > a {
+  color: white;
+}

@@ -1,0 +1,232 @@
+
+
+body{
+
+    display: grid;
+    height: 100vh;
+    width: 100vw;    
+    margin: 0rem;
+    padding: 0rem;
+    
+    
+
+   
+    grid-template-areas:    "header header header"
+                            "contenido contenido left"
+                            "contenido contenido left"
+                            "footer footer footer";
+
+
+    
+     
+    
+}
+
+body, header, main, aside, footer {
+
+border: 0.2rem solid rgb(145, 255, 0);
+
+
+}
+
+
+/*HEADER*/
+
+
+header {
+
+    grid-area: header;
+    height: auto;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    transition: 1s;
+     
+    
+   }
+
+header  div {
+
+    position:relative; left:7rem; top:2rem;
+
+
+
+}
+
+
+header p {
+
+       position:relative; left:10rem; top:0.8rem;
+
+
+}
+
+
+header ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:-5rem;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+    
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 25px;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    
+}
+    
+
+
+/* ASIDE */
+
+
+aside {
+    grid-area: left;
+    height: auto;
+    width: 20vw;
+    background-color:rgb(125, 165, 125);
+ 
+}
+
+
+aside > section {
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+aside > section > div { 
+
+
+    height: 5rem;
+    width: 10rem:
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    border: 0.3rem solid white;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+
+
+/* MAIN */
+
+main {
+    grid-area: contenido;
+    height: auto;
+    background-color: rgb(123, 144, 206)
+    
+
+}
+
+
+main > section {
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+main > section > div { 
+
+
+    height: 5rem;
+    width: 10rem:
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    border: 0.3rem solid white;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+
+
+/*FOOTER*/
+
+
+footer {
+    grid-area: footer;
+    height: auto;
+    background-color: rgb(84, 58, 197);
+    justify-content: right;
+    align-items: center;
+}
+
+
+
+footer  > section {
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+
+}
+
+
+footer > section > div { 
+
+
+    height: 5rem;
+    width: 10rem:
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    border: 0.3rem solid white;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+
+.container {
+
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
