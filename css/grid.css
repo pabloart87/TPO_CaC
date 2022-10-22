@@ -3,12 +3,13 @@
 body{
 
     display: grid;
+    
    
     
    
     grid-template-areas:    "header header header"
-                            "contenido contenido left"
-                            "contenido contenido left"
+                            "contenido contenido contenido"
+                            "contenido contenido contenido"
                             "footer footer footer";
 
 
@@ -35,14 +36,6 @@ main {
 
 }
   
-/* ASIDE */
-
-aside {
-
-    grid-area: left;
-    
-
-}
     
   /*FOOTER*/
     
