@@ -1,0 +1,848 @@
+
+
+
+/* Extra small devices (600px and down) */
+
+
+
+@media only screen and (max-width: 650px) {
+
+
+    .barra_navegacion { 
+  
+        height: 15%;
+              
+      }
+    
+    
+    .banner {
+    
+        font-size: 80%;
+        padding-bottom: 4%;
+       
+           
+    }
+    
+    
+    .logo { 
+            
+          width: 30%;
+          position: relative; left: 5%; top: 18%;
+              
+                     
+      }
+           
+      
+      .menu {
+
+        width: 70%;
+        font-size: 1vw;      
+        position:relative; top: -25%; left: 35%;
+        padding: 2px;
+        margin: 2px;    
+        
+        
+    
+      }
+      
+    
+    header ul li a {
+     
+      
+        font-size: 2vh;
+       
+    
+          }
+    
+ 
+    
+            .barra_navegacion_fixed  {  
+        
+              margin-top: 1rem;
+              height: 12%;
+              
+      
+                   
+            }
+          
+          
+   
+    
+      .barra_navegacion_fixed ul {
+    
+        position:relative; top: -30%; left: 35%;
+      
+        
+      }
+
+
+/*            FOOTER                */
+
+
+.logo-cosmetica {
+
+    width: 80%;
+    position: relative;
+    top: -5%;
+    left: 5%;
+    
+    
+    }
+
+ 
+
+.pie-pagina {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 85vw;
+    margin: 1rem;
+    text-align: left;
+    
+    
+   
+}
+
+
+
+.footer-box-1 {
+
+    letter-spacing: 2px;
+    font-size: 2vh;
+    padding-top: 0rem;
+    width: 40vw;
+    padding-left: 1rem;
+       
+    
+}
+
+.footer-box-1 ul {
+
+    
+    padding-left: 1rem;
+    
+
+}
+
+
+.footer-box-1 a {
+
+  
+    font-size: 3.4vw;
+    line-height: 2rem;
+    list-style:decimal;
+    
+  }
+
+.footer-box-2 {
+
+   
+    letter-spacing: 2px;
+    font-size: 2vh;
+    padding-top: 0rem;
+    width: 25vw;
+    width: 30vw;
+    
+
+
+}
+
+
+
+.footer-box-2 span a {
+
+  
+    font-size: 3.4vw;
+    line-height: 1.5rem;
+   
+  }
+
+
+
+.footer-box-3 {
+
+letter-spacing: 2px;
+font-size: 2vh;
+padding-top: 0rem;
+margin-bottom: 0rem;
+justify-content: center;
+align-items: center;
+  
+}
+
+
+
+.footer-box-2 a {
+
+    
+    font-size: 1vw;
+}
+
+
+
+  #derechos {
+
+      
+      font-size: 1rem;
+      padding: 0rem;
+      margin-top: 0rem;
+      
+
+      
+      
+      
+      
+
+  }
+
+
+
+
+}
+
+
+
+/* Small devices (620px and up) */
+
+
+
+@media only screen and (min-width: 650px) {
+
+
+  
+
+    .barra_navegacion { 
+  
+        height: 15%;
+              
+      }
+    
+    
+    .banner {
+    
+        font-size: 100%;
+        padding-bottom: 4%;
+       
+           
+    }
+    
+    
+    .logo { 
+            
+          width: 25%;
+          position: relative; left: 5%; top: 15%;
+              
+                     
+      }
+           
+      
+      .menu {
+
+        width: 60%;
+        font-size: 1vw;      
+        position:relative; top: -30%; left: 38%;
+        padding: 2px;
+        margin: 2px;    
+        
+        
+    
+      }
+      
+    
+    header ul li a {
+     
+      
+        font-size: 2vh;
+       
+    
+          }
+    
+ 
+    
+            .barra_navegacion_fixed  {  
+        
+              margin-top: 1rem;
+              height: 12%;
+              
+      
+                   
+            }
+          
+          
+   
+    
+      .barra_navegacion_fixed ul {
+    
+        position:relative; top: -40%; left: 35%;
+      
+        
+      }
+
+
+
+      /*            FOOTER                */
+
+
+
+.logo-cosmetica {
+
+    width: 60%;
+    
+    
+    }
+
+ 
+
+.pie-pagina {
+
+
+  margin: 1rem;
+  text-align: left;
+    
+   
+}
+
+
+
+.footer-box-1 {
+
+  font-size: 2vh;
+  align-items: right;
+  letter-spacing: 2px;
+  padding-top: 0rem;
+  width: 45vw;
+  padding-left: 1rem;
+    
+       
+    
+}
+
+.footer-box-1 ul {
+
+   
+    padding-left: 1rem;
+    
+
+}
+
+
+.footer-box-1 a {
+
+    
+    font-size: 2.5vw;
+    line-height: 2rem;
+    
+    
+    
+  }
+
+.footer-box-2 {
+
+    font-size: 2vh;
+    width: 40vw;
+    width: 30vw;
+    letter-spacing: 1px;
+    padding-top: 0rem;
+    position: relative;
+    left: 10%
+   
+    
+   
+
+}
+
+
+
+.footer-box-2 span a {
+
+  
+    font-size: 2.5vw;
+   
+    
+   
+  }
+
+
+
+.footer-box-3 {
+
+
+
+letter-spacing: 2px;
+font-size: 2vh;
+padding-top: 0rem;
+justify-content: center;
+align-items: center;
+position: relative;
+    left: 20%
+   
+  
+}
+
+
+
+  #derechos {
+
+      
+      font-size: 1rem;
+      
+      
+      
+      
+
+  }
+    
+
+
+
+
+
+
+/* Large devices (992px and up) */
+
+
+@media only screen and (min-width: 992px) {
+    
+  
+
+   
+    .banner {
+    
+          width: 100vw;
+          height: 20%;
+          font-size: 1.5vw;
+          text-align: center;
+          padding: 0.3rem;
+         
+          
+              
+    
+    
+    }
+    
+    
+    .logo { 
+            
+          width: 15vh;
+          position:relative; left:10%; top:25%;
+    
+                      
+      }
+           
+      
+      .menu {
+    
+        display: flex;
+        flex-wrap: wrap;
+        width: fit-content;
+        position:relative; top: -6%; left: 25%;
+            
+        
+        
+    
+      }
+    
+     
+
+    
+    
+    header ul li a {
+     
+        margin: 0 25px;
+        color: hsl(133, 25%, 22%);
+        letter-spacing: 5px;
+        font-size: 2.5vh;
+        font-family: 'Playfair Display', serif, cursive;
+       
+        
+    
+          }
+    
+   
+    
+    
+            .barra_navegacion_fixed  {  
+        
+            
+              height: 18%;
+              
+    
+                     
+                   
+            }
+          
+          
+ 
+    
+      .barra_navegacion_fixed ul {
+    
+      position:relative; left: 25%; top: -2%;
+      
+      }
+   
+    
+         /*            FOOTER                */
+
+
+     
+      
+      .pie-pagina {
+      
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          max-width: 70vw;
+          margin: 1rem
+          text-align: center;
+          
+         
+      }
+      
+      .footer-box-1 {
+      
+          display: flex;
+          flex-direction: column;
+          padding: 0rem;
+          font-size: 1.5vh;
+         
+          letter-spacing: 2px;
+          padding: 2rem;
+          width: 30vw;
+          
+      }
+      
+      
+      .footer-box-2 {
+      
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        font-size: 1.5vh;
+        letter-spacing: 2px;
+        width: 20vw;
+        padding-top: 2rem;
+       
+      
+      
+      }
+      
+      .footer-box-3 {
+      
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        font-size: 1.5vh;
+        letter-spacing: 2px;
+        width: 20vw;
+        padding-top: 2rem;
+       
+      
+      
+      }
+
+
+      
+      .logo-cosmetica {
+      
+      width: 90%;
+      position: relative;
+      top: -10%;
+      
+      }
+      
+            
+      
+      .footer-box-2 a {
+      
+          text-decoration: none;
+          font-size: 1vw;
+          
+      }
+
+      .footer-box-2 span a {
+
+        font-size: 1.5vw;
+        
+
+      }
+      
+      .footer-box-1 a {
+      
+        list-style: none;
+        font-size: 1.5vw;
+        line-height: 2rem;
+      }
+      
+      
+        #derechos {
+      
+            align-items: center;
+            text-align: center;
+            font-style: bold;
+            border-top: 2px solid;
+            margin-top: 1rem;
+            padding-top: 0.1rem;
+            font-weight: bold;
+            font-size: 0.9rem;
+            
+            
+            
+            
+      
+        }
+
+
+
+
+
+
+    
+    
+   
+
+
+      }
+    
+
+
+    /* Extra large devices (1200px and up) */
+
+
+    @media only screen and (min-width: 1500px) {
+   
+        .barra_navegacion { 
+  
+            width: 100vw;
+            height: 25%;
+            position:fixed; left:0rem; top:0rem; 
+            background-image: url(/img/banner-trans.jpg);
+            background-repeat: no-repeat;
+            background-size: cover; 
+            background-color: #cccccc;
+            transition: 0.5s;
+            z-index: 1;
+            box-shadow: 1rem 1rem 1rem gray;
+            border-bottom-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+            box-shadow: 1rem 1rem 1rem gray;
+            border: 3px solid hsla(133, 25%, 22%, 50%);
+            
+            
+            
+            
+          }
+        
+        
+        .banner {
+        
+              width: 100vw;
+              height: 15%;
+              font-family: 'Rajdhani', sans-serif, cursive;
+              letter-spacing: 2px;
+              color: white;
+              font-size: 1vw;
+              text-align: center;
+              padding: 0.3rem;
+              background-color: hsla(133, 25%, 22%, 50%);
+              
+                  
+        
+        
+        }
+        
+        
+        .logo { 
+                
+              width: 12vw;
+              margin: 0rem;
+              position:relative; left:10%; top:25%;
+              box-shadow: 1rem 1rem 1rem gray;
+        
+                          
+          }
+               
+          
+          .menu {
+        
+            display: flex;
+            flex-wrap: wrap;
+            width: fit-content;
+            position:relative; top: -6%; left: 31%;
+                
+            
+            
+        
+          }
+        
+         
+        
+        header ul li {
+        
+          list-style: none;
+          
+        
+        } 
+        
+        
+        header ul li a {
+         
+            margin: 0 25px;
+            color: hsl(133, 25%, 22%);
+            letter-spacing: 5px;
+            font-size: 2.5vh;
+            font-family: 'Playfair Display', serif, cursive;
+            text-decoration: none;
+            
+        
+              }
+        
+          header ul li a:hover {
+            
+                color:  hsl(34, 56%, 39%);
+                text-decoration:underline;
+                transition: .2s;
+                
+        
+                }
+        
+        
+                .barra_navegacion_fixed  {  
+            
+                  margin-top: 1rem;
+                  height: 18%;
+                  
+        
+                         
+                       
+                }
+              
+              
+                .barra_navegacion_fixed > div {
+        
+              display: none;
+              
+        
+          }
+        
+          .barra_navegacion_fixed ul {
+        
+          position:relative; left: 30%; top: -20%;
+          
+            
+          }   
+
+
+        
+         
+              
+              
+              
+              
+        
+          .pie-pagina {
+      
+           
+            max-width: 70vw;
+            margin: 0rem
+            text-align: left;
+            margin-top: 0rem;
+            
+           
+        }
+        
+        .footer-box-1 {
+        
+            
+            
+            font-size: 1.5vh;
+            letter-spacing: 2px;
+            padding: 0rem;
+            margin: 0rem;
+            width: 30vw;
+            position: relative;
+            left: 20%;
+            
+        }
+        
+        
+        .footer-box-2 {
+        
+          
+          padding: 0rem;
+          font-size: 1.5vh;
+          letter-spacing: 2px;
+          width: 20vw;
+          padding-top: 0rem;
+         
+        
+        
+        }
+        
+        .footer-box-3 {
+        
+          
+          padding: 1rem;
+          font-size: 1.5vh;
+          width: 20vw;
+          padding-top: 0rem;
+          position: relative;
+            left: 10%;
+         
+        
+        
+        }
+  
+  
+        
+        .logo-cosmetica {
+        
+        width: 80%;
+        position: relative;
+        top: -10%;
+        
+        }
+        
+              
+        
+        .footer-box-2 a {
+        
+            text-decoration: none;
+            font-size: 1vw;
+            
+        }
+  
+        .footer-box-2 span a {
+  
+          font-size: 1vw;
+          
+  
+        }
+        
+        .footer-box-1 a {
+        
+          list-style: none;
+          font-size: 1vw;
+          line-height: 2rem;
+        }
+        
+        
+          #derechos {
+        
+           
+              font-size: 1.2rem;
+              
+              
+              
+              
+        
+          }
+  
+
+        
+        
+
+    }
+
+

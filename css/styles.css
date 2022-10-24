@@ -187,9 +187,9 @@ margin: 5rem;
 
 }
 
-
+  
 /* CARRUSEL */
-       
+    
 
   .slideshow-container {
 
@@ -245,22 +245,13 @@ margin: 5rem;
     to {opacity: 1}
   }
   
-
-/* RESPONSIVE */
-
   
-  @media screen and (max-width:768px) {
-
-
-
-  }
-
-
+/*            FOOTER                */
 
  footer {
 
     
-    width: 100%;
+    width: 100vw;
     height: auto;
     position: relative; bottom: 0rem;
     padding: 1rem 0rem;
@@ -278,14 +269,16 @@ margin: 5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 60vw;
+    max-width: 80vw;
     margin: auto;
-    text-align: left;
+    text-align: center;
     
    
 }
 
-.footer-box {
+
+
+.footer-box-1 {
 
     display: flex;
     flex-direction: column;
@@ -295,6 +288,7 @@ margin: 5rem;
     color: hsl(133, 25%, 22%);
     letter-spacing: 3px;
     padding: 2rem;
+    
     
 }
 
@@ -314,6 +308,20 @@ margin: 5rem;
 
 }
 
+.footer-box-3 {
+
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: 1.5vh;
+  font-family: 'Rajdhani', sans-serif, cursive;
+  color: hsl(133, 25%, 22%);
+  letter-spacing: 3px;
+  padding: 2rem;
+  
+}
+
+
 
 .logo-cosmetica {
 
@@ -324,6 +332,14 @@ top: -10%;
 }
 
 
+.footer-box-1 a {
+
+  list-style: none;
+  font-size: 1vw;
+  line-height: 3rem;
+  
+  
+}
 
 
 .footer-box-2 a {
@@ -332,12 +348,6 @@ top: -10%;
     font-size: 1vw;
 }
 
-.footer-box a {
-
-  list-style: none;
-  font-size: 1vw;
-  line-height: 3rem;
-}
 
 
   #derechos {
@@ -345,7 +355,7 @@ top: -10%;
       align-items: center;
       text-align: center;
       font-style: bold;
-      border-bottom: 2px solid;
+      border-top: 2px solid;
       margin-top: 1rem;
       padding-top: 0.1rem;
       font-weight: bold;
@@ -364,10 +374,10 @@ top: -10%;
     
     
     position: fixed;
-    bottom: 35px;
+    bottom: 60px;
     right: 20px;
     width: 50px;
-    height: 50px;    
+    height: 6rem  
 
 }
 
