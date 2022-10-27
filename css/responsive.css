@@ -26,8 +26,8 @@
     
     .logo { 
             
-          width: 30%;
-          position: relative; left: 5%; top: 18%;
+          width: 22%;
+          position: absolute; left: 5%; top: 38%;
               
                      
       }
@@ -36,8 +36,8 @@
       .menu {
 
         width: 70%;
-        font-size: 1vw;      
-        position:relative; top: -25%; left: 35%;
+        font-size: 0.9vw;      
+        position:absolute; top: 32%; left: 32%;
         padding: 2px;
         margin: 2px;    
         
@@ -70,7 +70,7 @@
     
       .barra_navegacion_fixed ul {
     
-        position:relative; top: -30%; left: 35%;
+        position:absolute; top: 28%; left: 32%;
       
         
       }
@@ -215,7 +215,7 @@ align-items: center;
 
     .barra_navegacion { 
   
-        height: 15%;
+        height: 18%;
               
       }
     
@@ -231,7 +231,7 @@ align-items: center;
     
     .logo { 
             
-          width: 25%;
+          width: 18%;
           position: relative; left: 5%; top: 15%;
               
                      
@@ -240,11 +240,13 @@ align-items: center;
       
       .menu {
 
-        width: 60%;
-        font-size: 1vw;      
-        position:relative; top: -30%; left: 38%;
+        font-size: 1rem;     
+        position:relative; top: -20%; left: 25%;
         padding: 2px;
-        margin: 2px;    
+        margin: 2px;  
+        width: 70%;  
+        max-width: 75%;
+        
         
         
     
@@ -275,7 +277,7 @@ align-items: center;
     
       .barra_navegacion_fixed ul {
     
-        position:relative; top: -40%; left: 35%;
+        position:relative; top: -30%; left: 28%;
       
         
       }
@@ -331,7 +333,7 @@ align-items: center;
 .footer-box-1 a {
 
     
-    font-size: 2.5vw;
+    font-size: 2vw;
     line-height: 2rem;
     
     
@@ -358,7 +360,7 @@ align-items: center;
 .footer-box-2 span a {
 
   
-    font-size: 2.5vw;
+    font-size: 2vw;
    
     
    
@@ -425,8 +427,8 @@ position: relative;
     
     .logo { 
             
-          width: 15vh;
-          position:relative; left:10%; top:25%;
+          width: 18vh;
+          position:absolute; left:5%; top:35%;
     
                       
       }
@@ -437,7 +439,7 @@ position: relative;
         display: flex;
         flex-wrap: wrap;
         width: fit-content;
-        position:relative; top: -6%; left: 25%;
+        position:relative; top: 15%; left: 25%;
             
         
         
@@ -478,7 +480,7 @@ position: relative;
     
       .barra_navegacion_fixed ul {
     
-      position:relative; left: 25%; top: -2%;
+      position:relative; left: 25%; top: 35%;
       
       }
    
@@ -563,7 +565,7 @@ position: relative;
 
       .footer-box-2 span a {
 
-        font-size: 1.5vw;
+        font-size: 1vw;
         
 
       }
@@ -571,7 +573,7 @@ position: relative;
       .footer-box-1 a {
       
         list-style: none;
-        font-size: 1.5vw;
+        font-size: 1vw;
         line-height: 2rem;
       }
       
@@ -611,11 +613,14 @@ position: relative;
 
 
     @media only screen and (min-width: 1500px) {
+
+
+      
    
         .barra_navegacion { 
   
             width: 100vw;
-            height: 25%;
+            height: 20%;
             position:fixed; left:0rem; top:0rem; 
             background-image: url(/img/banner-trans.jpg);
             background-repeat: no-repeat;
@@ -728,7 +733,7 @@ position: relative;
         
           .barra_navegacion_fixed ul {
         
-          position:relative; left: 30%; top: -20%;
+          position:relative; left: 30%; top: -5%;
           
             
           }   
