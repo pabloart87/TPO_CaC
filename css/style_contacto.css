@@ -1,0 +1,40 @@
+    /* *{
+        border: 2px solid tomato;
+        box-sizing: border-box;
+        font-family: 'Quicksand', sans-serif;
+    } */
+    /* body {
+        border: 0.3rem solid green; 
+        margin-top: 0;
+    } */
+    main {
+        /* width: 100vw; */
+        /* border: 0.3rem solid green; */
+        align-items: center;
+    }
+   
+    .form{
+        /* border: 0.3rem solid red; */
+        box-sizing: content-box;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 3rem;
+        font-family: 'Quicksand', sans-serif;
+    }
+    textarea {
+        width: 40%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+        margin-top: 5px;
+    }
+    #submit:hover {
+        background-color: rgb(134, 134, 134);
+    }
+    .input {
+        background-color: #f8f8f8;
+    }
