@@ -30,7 +30,6 @@
     background-repeat: no-repeat;
     background-size: cover; 
     background-color: #cccccc;
-    transition: 0.5s;
     z-index: 1;
     box-shadow: 1rem 1rem 1rem gray;
     border-bottom-left-radius: 1rem;
