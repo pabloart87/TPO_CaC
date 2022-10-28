@@ -30,6 +30,7 @@
     background-repeat: no-repeat;
     background-size: cover; 
     background-color: #cccccc;
+    transition: 0.5s;
     z-index: 1;
     box-shadow: 1rem 1rem 1rem gray;
     border-bottom-left-radius: 1rem;
@@ -149,7 +150,7 @@ header ul li a {
 
 width: 100vw;
 height: 80rem;
-
+background-image: url(/img/texturado\ gris.jpg);
 
 
 
@@ -163,18 +164,18 @@ height: 80rem;
 
 .map {  
 
-width: 100%;
-display: flex;
-flex-direction: column;
-align-items: center;
-margin: 15rem;
-position: relative;
-top: 10rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 1rem;
+  /* border: 0.3rem solid green; */
+  
+  }
 
-}
 
-
-.contacto {
+/* .contacto {
 
 
 position: relative;
@@ -184,7 +185,7 @@ text-align: center;
 margin: 5rem;
 
 
-}
+} */
 
   
 /* CARRUSEL */
@@ -255,7 +256,7 @@ margin: 5rem;
     position: relative; bottom: 0rem;
     padding: 1rem 0rem;
     background-color: hsl(0, 0%, 88%);
-    margin-top: 10rem;
+    /* margin-top: 10rem; */
     align-items: center;
    
     
@@ -386,7 +387,83 @@ top: -10%;
 
   }
 
+/* MAIN DE QUIENES SOMOS*/
 
+.main_2 {
+  color: rgb(85, 128, 0);
+  grid-area: contenido;
+  height: auto;
+  background-image: url(/img/texturado\ gris.jpg);
+  /* background-size: cover; */
+  padding: 12rem 20% 20vh;  
+  background-color: rgb(193, 182, 182);
+  /* border: 0.3rem solid violet; */
+}
+
+main > div {
+  /* padding: 2rem 10% 20vh;   */
+  /* border: 0.3rem solid red; */
+  text-align: center;
+}
+
+main > div > h1 {
+  color:rgb(92, 82, 2);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  /* border: 0.3rem solid green; */
+}
+
+main > div > p {
+  color:rgb(5, 166, 10);
+  font-family: cursive;
+  font-size: 1.5rem;
+  text-align: justify;
+  /* border: 0.3rem solid green; */
+}
+
+
+main > div > span > img{
+  height: 17rem;
+  width: 17rem;
+  justify-content: center; 
+  /* border: 0.3rem solid red; */
+  margin: 0rem;
+}
+
+/* MAIN DE PRODUCTOS */
+
+main > section {
+
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* border: 0.2rem solid blue; */
+  max-width: 100%
+
+}
+
+
+main > section > div { 
+
+
+  height: 8rem;
+  width: 13rem;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.3rem;
+  border-radius: 1rem;
+  margin: 1.2rem;
+  border: 0.5rem solid white;
+  border-bottom: 1.5rem solid white;
+  text-align: center;
+}
+
+main section img{
+  height: 7rem;
+  width: 13rem;
+  /* padding: 0rem; */
+  /* border: 0.5rem solid white; */
+  border-radius: 0.5rem;
+}
 
 
 
