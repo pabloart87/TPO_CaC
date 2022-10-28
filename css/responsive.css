@@ -416,7 +416,8 @@ position: relative;
           height: 20%;
           font-size: 1.5vw;
           text-align: center;
-          padding: 0.3rem;
+          padding: 0.1rem;
+          
          
           
               
@@ -496,7 +497,7 @@ position: relative;
           flex-wrap: wrap;
           justify-content: space-between;
           max-width: 70vw;
-          margin: 1rem
+          margin: 1rem;
           text-align: center;
           
          
@@ -605,11 +606,11 @@ position: relative;
    
 
 
-      }
+}
     
 
 
-    /* Extra large devices (1200px and up) */
+    /* Extra large devices (1500px and up) */
 
 
     @media only screen and (min-width: 1500px) {
@@ -750,7 +751,7 @@ position: relative;
       
            
             max-width: 70vw;
-            margin: 0rem
+            margin: 0rem;
             text-align: left;
             margin-top: 0rem;
             
@@ -850,4 +851,4 @@ position: relative;
 
     }
 
-
+  }
