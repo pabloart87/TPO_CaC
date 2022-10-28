@@ -10,7 +10,7 @@ function onRequestHandler(){
         const data = JSON.parse(this.response);
         const HTMLResponse = document.querySelector("#app");
 
-        const tpl = data.map(comments => '<li>${comments.name} {comments.email} </li>');
+        const tpl = data.map(comments => comments.body);
         HTMLResponse.innerHTML = tpl
     }
 }
