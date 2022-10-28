@@ -25,6 +25,7 @@
   
     width: 100vw;
     height: 25%;
+    min-height: 10rem;
     position:fixed; left:0rem; top:0rem; 
     background-image: url(/img/banner-trans.jpg);
     background-repeat: no-repeat;
@@ -48,12 +49,13 @@
 
       width: 100vw;
       height: 15%;
+      min-height: 1rem;
       font-family: 'Rajdhani', sans-serif, cursive;
       letter-spacing: 2px;
       color: white;
       font-size: 1.4vw;
       text-align: center;
-      padding: 0.3rem;
+      padding: 0.4rem;
       background-color: hsla(133, 25%, 22%, 50%);
       
           
@@ -78,7 +80,9 @@
     display: flex;
     flex-wrap: wrap;
     width: fit-content;
+    min-height: 4rem;
     position:relative; top: -6%; left: 31%;
+    
         
     
     
@@ -103,6 +107,7 @@ header ul li a {
     font-size: 2.5vh;
     font-family: 'Playfair Display', serif, cursive;
     text-decoration: none;
+    
     
 
       }
@@ -139,6 +144,7 @@ header ul li a {
 
   position:relative; left: 30%; top: -20%;
   
+  
     
   }
 
@@ -149,8 +155,10 @@ header ul li a {
 .principal {
 
 width: 100vw;
-height: 80rem;
+height: 200rem;
 background-image: url(/img/texturado\ gris.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 
 
 
@@ -390,13 +398,16 @@ top: -10%;
 /* MAIN DE QUIENES SOMOS*/
 
 .main_2 {
-  color: rgb(85, 128, 0);
+  color: hsl(133, 25%, 22%);
   grid-area: contenido;
   height: auto;
   background-image: url(/img/texturado\ gris.jpg);
-  /* background-size: cover; */
-  padding: 12rem 20% 20vh;  
+  background-repeat: no-repeat;
+  background-size: cover;  
+  font-family: 'Playfair Display', serif;
+  padding: 12rem 20% 20vh; 
   background-color: rgb(193, 182, 182);
+ 
   /* border: 0.3rem solid violet; */
 }
 
@@ -414,7 +425,7 @@ main > div > h1 {
 }
 
 main > div > p {
-  color:rgb(5, 166, 10);
+  color: hsl(133, 25%, 22%);
   font-family: cursive;
   font-size: 1.5rem;
   text-align: justify;
