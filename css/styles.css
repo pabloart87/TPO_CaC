@@ -489,6 +489,19 @@ main section img{
   border-radius: 0.5rem;
 }
 
+/* MAIN DE OPINIONES DE CLIENTES */
 
+.main_3{
+  color: hsl(133, 25%, 22%);
+  grid-area: contenido;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  font-family: 'Playfair Display', serif;
+  padding: 12rem 20% 20vh; 
+
+ 
+  /* border: 0.3rem solid violet; */
+}
 
 
