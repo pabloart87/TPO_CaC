@@ -155,12 +155,10 @@ header ul li a {
 .principal {
 
 width: 100vw;
-height: 200rem;
+height: auto;
 background-image: url(/img/texturado\ gris.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-
-
 
 
 }
@@ -204,9 +202,9 @@ margin: 5rem;
     position: relative;
     top: 20rem;
     margin: auto;
-    height: 65%;
+    height: auto;
     overflow: hidden;
-    width: 75%;
+    width: 65%;
     max-height: 80rem;
     max-width: 80rem;
     
@@ -252,6 +250,21 @@ margin: 5rem;
     from {opacity: .4} 
     to {opacity: 1}
   }
+
+
+.img_main1 {
+
+
+  align-items:  left;
+  
+
+
+
+
+
+}
+
+
   
   
 /*            FOOTER                */
@@ -462,7 +475,7 @@ main > section > div {
   font-family: 'Dancing Script', cursive;
   font-size: 1.3rem;
   border-radius: 1rem;
-  margin: 1.2rem;
+  margin: 1.5rem;
   border: 0.5rem solid white;
   border-bottom: 1.5rem solid white;
   text-align: center;
